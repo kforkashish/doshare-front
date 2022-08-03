@@ -14,7 +14,7 @@ const sharingContainer = document.querySelector(".sharing-container");
 const emailForm = document.querySelector("#emailForm")
 
 const toast = document.querySelector(".toast");
-const host = "https://happysharing-app.herokuapp.com/";
+const host = "https://doshare-file.herokuapp.com/";
 const uploadUrl = host + "api/files";
 const emailUrl = host + "api/files/send";
 const maxAllowedSize = 10 * 1024 * 1024;
